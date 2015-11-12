@@ -1,0 +1,26 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink: pretty
+
+# Setup
+destination: ../_site
+title: Domusing
+tagline: musing on paper
+description: Somewhere to write down my thoughts
+url: http://www.domusing.com
+baseurl: ''
+paginate: 5
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author: Dom
+
+# Custom vars
+version:             1.0.0
+
+# gems
+gems: [jekyll-paginate]
