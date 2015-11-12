@@ -5,9 +5,9 @@ permalink: pretty
 
 # Setup
 destination: ../_site
-title: Domusing
-tagline: musing on paper
-description: Somewhere to write down my thoughts
+title: domusing
+tagline: musings in print
+description: Thoughts and projects
 url: http://www.domusing.com
 baseurl: ''
 paginate: 5
