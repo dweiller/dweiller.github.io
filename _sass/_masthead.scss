@@ -1,0 +1,36 @@
+// Masthead
+//
+// Super small header above the content for site name and short description.
+
+.masthead {
+  padding-top:    1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid $feintgrey;
+}
+
+.masthead-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $darkgrey;
+
+  a {
+    color: $darkgrey;
+  }
+
+  small {
+    font-size: 75%;
+    font-weight: 400;
+    color: $lightergrey;
+    letter-spacing: 0;
+  }
+}
+
+@media (max-width: 48em) {
+  .masthead-title {
+    text-align: center;
+  }
+  .masthead-title small {
+    display: none;
+  }
+}

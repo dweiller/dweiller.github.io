@@ -1,7 +1,7 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink: pretty
+permalink: /:title
 
 # Setup
 destination: ../_site
@@ -11,6 +11,9 @@ description: Thoughts and projects
 url: http://www.domusing.com
 baseurl: ''
 paginate: 5
+
+sass:
+  style:  expanded
 
 defaults:
   -
