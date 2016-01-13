@@ -8,18 +8,14 @@
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
+    {% elsif page.titlet != "" %}
+      {{ page.titlet }}
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
 
   <!-- CSS -->
-  <!--
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/poole.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/lanyon.css">
-  -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-
 </head>
