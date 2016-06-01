@@ -22,11 +22,11 @@ defaults:
     values:
       author: Dom
 
-collections:
-  - poetry
+#collections:
+#  - poetry
 
 # Custom vars
-version:             1.0.0
+version: 1.0.0
 
 # gems
 gems: [jekyll-paginate]
