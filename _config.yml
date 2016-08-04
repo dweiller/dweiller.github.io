@@ -22,8 +22,11 @@ defaults:
     values:
       author: Dom
 
-#collections:
-#  - poetry
+collections:
+    poetry:
+        output: true
+        permalink: /:collection/:title
+
 
 # Custom vars
 version: 1.0.0
